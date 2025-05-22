@@ -3,7 +3,7 @@
 let sum = [1,3,4,5];
 
 function getSum(arr) {
-
+    return arr.map(item => item * item)
 }
 
-getSum(sum)
+console.log(getSum(sum));
